@@ -1,0 +1,16 @@
+[
+  { "id": "associated-press",     "name": "Associated Press",         "url": "https://feedx.net/rss/ap.xml",                                 "category": "News & Current Affairs",  "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "nbc-news",             "name": "NBC News",                 "url": "https://feeds.nbcnews.com/nbcnews/public/news",                "category": "News & Current Affairs",  "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "nasa-breaking-news",   "name": "NASA Breaking News",       "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",               "category": "Science",                 "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "marginal-revolution",  "name": "Marginal Revolution",      "url": "https://marginalrevolution.com/feed",                          "category": "Economics",               "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "hacker-news",          "name": "Hacker News: Front Page",  "url": "https://hnrss.org/frontpage",                                  "category": "Technology",              "displayMode": "auto",  "contentSource": "hacker-news" },
+  { "id": "slashdot",             "name": "Slashdot",                 "url": "https://rss.slashdot.org/Slashdot/slashdotMain",               "category": "Technology",              "displayMode": "auto",  "contentSource": "slashdot" },
+  { "id": "slashdot-science",     "name": "Slashdot: Science",        "url": "https://rss.slashdot.org/Slashdot/slashdotScience",            "category": "Science",                 "displayMode": "auto",  "contentSource": "slashdot" },
+  { "id": "slashdot-hardware",    "name": "Slashdot: Hardware",       "url": "https://rss.slashdot.org/Slashdot/slashdotHardware",           "category": "Technology",              "displayMode": "auto",  "contentSource": "slashdot" },
+  { "id": "smbc",                 "name": "SMBC",                     "url": "https://www.smbc-comics.com/comic/rss",                        "category": "Comics",                  "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "xkcd",                 "name": "xkcd",                     "url": "https://xkcd.com/atom.xml",                                    "category": "Comics",                  "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "dinosaur-comics",      "name": "Dinosaur Comics!",         "url": "https://qwantz.com/rssfeed.php",                               "category": "Comics",                  "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "existential-comics",   "name": "Existential Comics",       "url": "https://existentialcomics.com/rss.xml",                        "category": "Comics",                  "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "incidental-comics",    "name": "Incidental Comics",        "url": "http://www.incidentalcomics.com/feeds/posts/default?alt=rss",  "category": "Comics",                  "displayMode": "auto",  "contentSource": "auto" },
+  { "id": "the-oatmeal",          "name": "The Oatmeal",              "url": "https://theoatmeal.com/feed/rss",                              "category": "Comics",                  "displayMode": "auto",  "contentSource": "auto" }
+]

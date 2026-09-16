@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Open book favicon: two facing pages with a center spine. -->
+  <g fill="none" stroke="#3498db" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left page -->
+    <path d="M32 17 C25 11 16 10 8 12 V49 C16 47 25 48 32 53 Z" fill="#3498db" fill-opacity="0.14"/>
+    <!-- Right page -->
+    <path d="M32 17 C39 11 48 10 56 12 V49 C48 47 39 48 32 53 Z" fill="#3498db" fill-opacity="0.14"/>
+    <!-- Spine -->
+    <path d="M32 17 V53"/>
+  </g>
+</svg>

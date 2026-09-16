@@ -1,0 +1,23 @@
+{
+  "name": "rss-feed-update-daemon",
+  "version": "1.0.0",
+  "description": "AWS Lambda that reads a feeds.json list from S3, checks each RSS feed, and appends newly-seen items to a per-feed JSON file in S3.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "npm install --omit=dev && rm -f function.zip && zip -r function.zip index.js lib node_modules package.json",
+    "test:local": "node local-test.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.637.0",
+    "@mozilla/readability": "^0.5.0",
+    "linkedom": "^0.18.5",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "license": "MIT"
+}

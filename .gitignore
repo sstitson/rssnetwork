@@ -1,0 +1,56 @@
+# ---------------------------------------------------------------------------
+# Per-install generated config — NEVER commit these
+# ---------------------------------------------------------------------------
+# config.env holds your AWS account, Cognito IDs and the admin password.
+# Created by template-setup/setup.sh from template-setup/.env.example.
+config.env
+
+# Rendered by template-setup/setup.sh from stage-config.template, then completed
+# by infrastructure/deploy.sh once the CloudFront distributions exist.
+stage-config.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Infrastructure
+infrastructure/node_modules
+infrastructure/cdk.out
+infrastructure/*.js
+!infrastructure/jest.config.js
+infrastructure/*.d.ts
+
+# RSS feed update daemon
+rss-feed-update-daemon/local-s3-data
+rss-feed-update-daemon/function.zip
+
+# Playwright verification artifacts (screenshots / logs)
+app/_pwshots
+app/_pwlog.txt
+app/test-results
+playwright-report
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local scratch: one-off debug scripts, feed dumps, Playwright probes and their
+# output. Named with a leading underscore by convention so they stay untracked.
+_*

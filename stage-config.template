@@ -1,0 +1,14 @@
+{
+  "main": {
+    "dns": "{{SITE_DOMAIN}}",
+    "DISTRIBUTION_ID": "{{CF_DISTRIBUTION_ID}}",
+    "BUCKET": "s3://{{SITE_BUCKET}}/",
+    "rssSchedule": "{{RSS_SCHEDULE}}"
+  },
+  "qa": {
+    "dns": "{{SITE_DOMAIN_QA}}",
+    "DISTRIBUTION_ID": "{{CF_DISTRIBUTION_ID_QA}}",
+    "BUCKET": "s3://{{SITE_BUCKET_QA}}/",
+    "rssSchedule": "{{RSS_SCHEDULE}}"
+  }
+}
